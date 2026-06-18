@@ -8,63 +8,63 @@ Businesses often struggle to monitor sales performance, profitability, and targe
 
 ### Objective
 The objective of this dashboard is to provide a comprehensive view of business performance by integrating transformed data into a dynamic reporting solution. It enables stakeholders to:
- Monitor overall sales, profit, and business growth. 
- Track performance against sales targets. 
- Identify top-performing and low-performing products/categories. 
- Analyze customer purchasing behavior and regional performance. 
- Support data-driven decision-making through interactive visualizations. 
+✔ Monitor overall sales, profit, and business growth. 
+✔ Track performance against sales targets. 
+✔ Identify top-performing and low-performing products/categories. 
+✔ Analyze customer purchasing behavior and regional performance. 
+✔ Support data-driven decision-making through interactive visualizations. 
 
 ### Target Audience
 This dashboard is designed for the following users:
- Executive Leadership – To monitor overall business performance and support strategic decision-making. 
- Sales Operations Team – To track sales targets, revenue trends, and operational efficiency. 
- Business Analysts / Data Analysts – To analyze KPIs and generate actionable insights. 
- Department Managers – To evaluate category, product, and regional performance. 
- Management Teams – To identify opportunities for business growth and improve profitability.
+✔ Executive Leadership – To monitor overall business performance and support strategic decision-making. 
+✔ Sales Operations Team – To track sales targets, revenue trends, and operational efficiency. 
+✔ Business Analysts / Data Analysts – To analyze KPIs and generate actionable insights. 
+✔ Department Managers – To evaluate category, product, and regional performance. 
+✔ Management Teams – To identify opportunities for business growth and improve profitability.
 
 ##  🗃️ Data Sources & Architecture
 
 ### Source Systems
- Local Excel Files (.xlsx) were used as the primary data source for importing and transforming the dataset into Power BI. 
- Data was loaded and prepared through Power Query Editor before creating relationships and measures. 
+✔ Local Excel Files (.xlsx) were used as the primary data source for importing and transforming the dataset into Power BI. 
+✔ Data was loaded and prepared through Power Query Editor before creating relationships and measures. 
 
 ### Data Volume
- Timeframe Covered: Based on the dataset available in the workbook (mention actual period if known, e.g., Jan 2024 – Dec 2025). 
- Approximate Row Count: Add the total rows loaded into the model (example: ~10,000–50,000 rows depending on your dataset). 
- Multiple tables were integrated for analysis and reporting. 
+✔ Timeframe Covered: Based on the dataset available in the workbook (mention actual period if known, e.g., Jan 2024 – Dec 2025). 
+✔ Approximate Row Count: Add the total rows loaded into the model (example: ~10,000–50,000 rows depending on your dataset). 
+✔ Multiple tables were integrated for analysis and reporting. 
 
 ### Storage Mode
- Import Mode 
+✔ Import Mode 
 o Data is imported into the Power BI model and stored inside the .pbix file. 
 o Provides faster report performance and supports full Power BI modeling features.
 
 ## ⚙️Data Transformation (ETL)
 
 ### Extract
-  Imported multiple source tables into Power BI. 
+✔  Imported multiple source tables into Power BI. 
 
 ### Transform
 Performed data cleaning and preparation:
- Handled missing values 
- Removed duplicates 
- Corrected data types 
-  Created custom columns: 
+✔ Handled missing values 
+✔ Removed duplicates 
+✔ Corrected data types 
+✔  Created custom columns: 
  o Profit Margin % 
  o Profit Status 
- Applied conditional columns 
- Merged tables using Order ID 
- Grouped and aggregated data 
- Standardized values 
+✔ Applied conditional columns 
+✔ Merged tables using Order ID 
+✔ Grouped and aggregated data 
+✔ Standardized values 
 
 ### Load
- Loaded transformed tables into the Power BI data model. 
+✔ Loaded transformed tables into the Power BI data model. 
 
 ## 🧠 Data Model & DAX
 
 ### Data Modeling
 Established relationships using Manage Relationships:
- One-to-Many relationship using Order ID 
- Category-based relationship with Sales Target
+✔ One-to-Many relationship using Order ID 
+✔ Category-based relationship with Sales Target
 
 ### DAX Calculations
 
@@ -89,12 +89,12 @@ DIVIDE([Total Sales],[Target],0)
 ## 🖥️ Dashboard Features
 
 ### Interactive dashboard components include:
- KPI Cards 
- Bar Chart 
- Line Chart 
- Pie/Donut Chart Scatter Chart 
- Gauge Chart 
- Table 
+✔ KPI Cards 
+✔ Bar Chart 
+✔ Line Chart 
+✔ Pie/Donut Chart Scatter Chart 
+✔ Gauge Chart 
+✔ Table 
 
 ##  💡Key Insights
 
@@ -122,15 +122,13 @@ Clone or download the repository to access the .pbix or .pbit files.
 Open Transform Data → Data Source Settings and update the source file location to connect with your local dataset.
 
 ### Dashboard Navigation:
- Review KPI cards for overall performance.
- Analyze charts for sales, profit, and customer trends.
- Compare category and product performance across visuals.
+✔ Review KPI cards for overall performance.
+✔ Analyze charts for sales, profit, and customer trends.
+✔ Compare category and product performance across visuals.
+ 
 
-### Customization:
-	Users can modify visuals, update measures, and extend the dashboard based on business 
-  
-## Tech Stack section
-### Tech Stack
+## Tech Stack
+
 - Power BI Desktop
 - Power Query
 - DAX
@@ -138,8 +136,8 @@ Open Transform Data → Data Source Settings and update the source file location
 - Data Modeling
 - ETL
   
-## Add project outcomes
-## Business Outcomes
+## Project Outcomes
+
 ✔ Improved reporting visibility  
 ✔ Reduced manual analysis effort  
 ✔ Enabled KPI monitoring  
